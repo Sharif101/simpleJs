@@ -1,0 +1,57 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+a
+{
+    text-decoration: none;
+    display: inline-block;
+}
+h1,h2,h3,h4,h5,h6,p
+{
+    margin: 0;
+    padding: 0;
+}
+
+ol,ul
+{
+    list-style: none;
+}
+
+body,html{
+    overflow-x: hidden;
+}
+
+:root
+{
+    --btn-col: #289BDE;
+    --text-col: #777777;
+    --title-col: #1D1D1D;
+    --font-family:'Poppins', sans-serif;
+}
+
+.custom-btn
+{
+    background-color: var(--btn-col);
+    color: white;
+    padding: 13px 33px;
+    border: 1px solid var(--btn-col);
+    border-radius: 5px;
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* baper hotel page design  */
+header h1
+{
+    color: rgb(238,130,238);
+}
+
+#amount-details .show-text h4{
+    font-size: 30px;
+}
+#amount-details .show-text p{
+    font-size: 25px;
+}
